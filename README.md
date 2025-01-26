@@ -1,0 +1,2 @@
+# Announcement
+Gamebank announcement information
