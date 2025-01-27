@@ -1,8 +1,26 @@
 /* font family */
 @font-face {
-    font-family: font_1;
-    src: url('.fonts/klavika_medium.otf');
+	font-family: "font_meme";
+	src: url("../fonts/meme.ttf");
+  }
+@font-face {
+    font-family: "klavika_medium";
+    src: url('../fonts/klavika_medium.otf');
 }
+@font-face {
+    font-family: "typo_gotika";
+    src: url('../fonts/typo_gotika.otf');
+}
+@font-face {
+    font-family: "poppins_bold";
+    src: url('../fonts/poppins_bold.ttf');
+}
+@font-face {
+    font-family: "PoppinsExtraBold";
+    src: url('../fonts/PoppinsExtraBold.ttf');
+}
+
+/* body css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -26,14 +44,16 @@ body {
 }
 
 .date {
+    font-family: font_meme;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 22px;
     color: #ffffff;
 }
 
 .gamebank {
+    font-family: poppins_bold;
     margin-top: 1px;
-    font-size: 26px;
+    font-size: 24px;
     color: gold;
 }
 
@@ -51,15 +71,21 @@ body {
 }
 
 .selected-country {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: 5px;
+    font-size: 12px;
     color: white;
+}
+.countdown {
+    font-family: klavika_medium;
+    font-size: 19px;
+    color: whitesmoke;
 }
 
 /* winner information CSS */
 .win-ann {
+    font-family: PoppinsExtraBold;
     margin-top: 1px;
-    font-size: 28px;
+    font-size: 29px;
     font-weight: bold;
     margin-top: 70px;
     color: gold;

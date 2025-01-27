@@ -41,19 +41,19 @@ countrySelect.addEventListener("change", function() {
 
     switch(country) {
         case "Bangladesh":
-            countryText = "Date: 29 April 2025 11:30 PM";
+            countryText = "Date: 29 April 2025, 11:30 PM"; //bd time
             break;
         case "Pakistan":
-            countryText = "You have selected Pakistan";
+            countryText = "Date: 29 April 2025, 10:30 PM"; //Pakistan time
             break;
         case "India":
-            countryText = "You have selected India.";
+            countryText = "Date: 29 April 2025, 11:00 PM"; //India time
             break;
         case "United States":
-            countryText = "You have selected the United States.";
+            countryText = "You have selected USA"; //us time
             break;
         case "United Kingdom":
-            countryText = "You have selected the United Kingdom.";
+            countryText = "You have selected the United Kingdom."; //UK time
             break;
         case "Australia":
             countryText = "You have selected Australia.";
@@ -68,7 +68,7 @@ countrySelect.addEventListener("change", function() {
             countryText = "You have selected Russia.";
             break;
         case "Japan":
-            countryText = "You have selected Japan.";
+            countryText = "Date: 30 April 2025, 2:30 AM"; // japan time
             break;
         case "South Korea":
             countryText = "You have selected South Korea.";
