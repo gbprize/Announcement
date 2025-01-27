@@ -46,14 +46,14 @@ body {
 .date {
     font-family: font_meme;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 17px;
     color: #ffffff;
 }
 
 .gamebank {
     font-family: poppins_bold;
     margin-top: 1px;
-    font-size: 24px;
+    font-size: 19px;
     color: gold;
 }
 
@@ -85,14 +85,14 @@ body {
 .win-ann {
     font-family: PoppinsExtraBold;
     margin-top: 1px;
-    font-size: 29px;
+    font-size: 22px;
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 50px;
     color: gold;
 }
 .player-list {
     visibility: visible; /* hidden or not (visible) */
-    margin-top: 10px;
+    margin-top: 5px;
     align-items: center;
 }
 .player {
