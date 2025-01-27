@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Announcement Page</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamebank Announcement</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/favicon-32×32.png" type="image/x-icon">
 </head>
 <body>
-  <div class="container">
-    <!-- Date Section -->
-    <div class="date-section">
-      <span id="date-text">Date: 29 April 2025 11:30PM</span>
-    </div>
-    <!-- Countdown Timer Section -->
-    <div class="countdown-section">
-      <span id="countdown"></span>
-    </div>
-    <!-- Gamebank Section -->
-    <div class="gamebank-section">
-      <span>GAMEBANK: $1,00,000 (0.1 Million)</span>
-    </div>
-  </div>
+    <div class="container">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" width="380" height="150">
+        </div>
 
-  <script src="./js/script.js"></script>
+        <div class="date">
+            <p id="country-date">Date: 29 April 2025 11:30 PM</p>
+        </div>
+        <div class="gamebank">
+            <p>GAMEBANK: $1,00,000 (0.1 Million)</p>
+        </div>
+
+        <!-- Country selection -->
+        <div class="country-selection">
+            <select id="country" name="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+                <option value="Russia">Russia</option>
+                <option value="Japan">Japan</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Macau">Macau</option>
+                <!-- Added Developed Countries -->
+                <option value="Switzerland">Switzerland</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="New Zealand">New Zealand</option>
+            </select>
+        </div>
+        <div class="selected-country">
+            <p id="selected-country-text"></p>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown">
+            <p id="countdown-timer">Loading...</p>
+        </div>
+
+        <!-- only winner information -->
+        <div class="win-ann">
+            <p>WINNER ANNOUNCEMENT</p>
+        </div>
+        <div class="player-list">
+         <div class="player">
+            <div class="avatar">
+                <img src="./images/avatar.svg" alt="Avatar">
+            </div>
+            <div class="info">
+                <span class="name">Name.Gamebank</span>
+                <span class="rate">Rate: $000.00</span>
+            </div>
+            <div class="prize-info">
+                <span class="prize-title">GAMEBANK PRIZE</span>
+                <span class="prize">$1,00,000 ($0.1 Million)</span>
+            </div>
+            <div class="chance" style="background-color: #56c700;">00.00%</div>
+         </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

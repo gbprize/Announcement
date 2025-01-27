@@ -1,0 +1,126 @@
+/* font family */
+@font-face {
+    font-family: font_1;
+    src: url('.fonts/klavika_medium.otf');
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #090D15; /* কালো ব্যাকগ্রাউন্ড */
+    color: white;
+    
+}
+.container {
+    text-align: center;
+    background-color: #090D15;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.gamebank {
+    margin-top: 1px;
+    font-size: 26px;
+    color: gold;
+}
+
+.country-selection {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+#country {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #090D15;
+    color: white;
+}
+
+.selected-country {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/* winner information CSS */
+.win-ann {
+    margin-top: 1px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 70px;
+    color: gold;
+}
+.player-list {
+    visibility: visible; /* hidden or not (visible) */
+    margin-top: 10px;
+    align-items: center;
+}
+.player {
+    display: flex;
+    align-items: center;
+    background-color: #2a2a40;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.info {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rate {
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
+.prize-info {
+    flex: 1;
+    margin-left: 5px;
+}
+.prize-title {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.prize {
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
+.chance {
+    background-color: #00c77b;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
