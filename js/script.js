@@ -53,40 +53,40 @@ countrySelect.addEventListener("change", function() {
             countryText = "You have selected USA"; //us time
             break;
         case "United Kingdom":
-            countryText = "You have selected the United Kingdom."; //UK time
+            countryText = "Date: 29 April 2025, 6:30 PM"; //UK (BST) time
             break;
         case "Australia":
             countryText = "You have selected Australia.";
             break;
         case "Canada":
-            countryText = "You have selected Canada.";
+            countryText = "Date: 29 April 2025, 1:30 PM"; //Canada (EDT) time
             break;
         case "China":
-            countryText = "You have selected China.";
+            countryText = "Date: 30 April 2025, 1:30 AM"; //China (cst) time 
             break;
         case "Russia":
-            countryText = "You have selected Russia.";
+            countryText = "Date: 29 April 2025, 8:30 PM"; //Russia MOSCO time
             break;
         case "Japan":
-            countryText = "Date: 30 April 2025, 2:30 AM"; // japan time
+            countryText = "Date: 30 April 2025, 2:30 AM"; // japan (JST) time
             break;
         case "South Korea":
-            countryText = "You have selected South Korea.";
+            countryText = "Date: 30 April 2025, 2:30 AM"; //South Korea (KST) time
             break;
         case "Germany":
-            countryText = "You have selected Germany.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Germany time
             break;
         case "France":
-            countryText = "You have selected France.";
+            countryText = "Date: 29 April 2025, 10:30 AM"; //France (PDT) time
             break;
         case "Italy":
-            countryText = "You have selected Italy.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Italy (CEST) time
             break;
         case "Spain":
-            countryText = "You have selected Spain.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Spain (CEST) time
             break;
         case "Netherlands":
-            countryText = "You have selected Netherlands.";
+            countryText = "You have selected Netherlands."; 
             break;
         case "Sweden":
             countryText = "You have selected Sweden.";
@@ -105,28 +105,28 @@ countrySelect.addEventListener("change", function() {
             break;
         // New Developed Countries
         case "Switzerland":
-            countryText = "You have selected Switzerland.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Switzerland (SAST) time
             break;
         case "Luxembourg":
-            countryText = "You have selected Luxembourg.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Luxembourg (SAST) time
             break;
         case "Monaco":
-            countryText = "You have selected Monaco.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Monaco (CEST) time
             break;
         case "Belgium":
-            countryText = "You have selected Belgium.";
+            countryText = "Date: 29 April 2025, 7:30 PM"; //Belgium (CEST) time
             break;
         case "Hong Kong":
-            countryText = "You have selected Hong Kong.";
+            countryText = "Date: 30 April 2025, 1:30 AM"; //Hong Kong (HKT) time
             break;
         case "New Zealand":
-            countryText = "You have selected New Zealand.";
+            countryText = "Date: 30 April 2025, 5:30 AM"; //New Zealand (NZST) time
             break;
         default:
             countryText = "Please select a country.";
     }
 
     // Display the selected country text in both sections
-    //selectedCountryText.innerHTML = `${countryText}`; 
+    //selectedCountryText.innerHTML = `${countryText}`;
     countryDate.innerHTML = `${countryText}`; //update country date
 });
